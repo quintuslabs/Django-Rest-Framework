@@ -11,3 +11,15 @@ step-3 : python manage.py migrate
 step-4 : python manage.py createsuperuser
 
 step-5 : python manage.py runserver
+
+screen:
+
+<img src="screen/post.png" alt="post">
+
+<img src="screen/get_all.png" alt="get all">
+
+<img src="screen/get_by_id.png" alt="get by id">
+
+<img src="screen/patch_by_id.png" alt="patch by id">
+
+<img src="screen/delete_by_id.png" alt="delete by id">
