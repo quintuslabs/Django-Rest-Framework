@@ -72,7 +72,7 @@ class EmployeeDeleteAPIView(generics.RetrieveDestroyAPIView):
         employee_id = self.kwargs['pk']
         employee = Employee.objects.get(id=employee_id)
         employee.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT,)
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 
 
